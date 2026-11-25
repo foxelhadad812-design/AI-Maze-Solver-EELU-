@@ -1,0 +1,16 @@
+AI MAZE SOLVER - EELU FALL 2026-2027 FINAL DELIVERY
+
+Archive: AI_Maze_Solver_EELU_Fall_2026-2027_Final.rar
+
+Package contents
+- 34 files inside one top-level project folder, including the shared UI palette, widgets, and rendering modules.
+- Complete runnable source, algorithms, tests, sample mazes, requirements.txt, and run.bat.
+- README.md and DOCUMENTATION.pdf cover project idea, algorithms, system design, run instructions, input/output examples, and testing results.
+- Five team members and their technical roles are listed in the project documentation.
+- External packages are declared: Pygame and pytest.
+- Comparisons on grids of 1,600 cells or more run on a background worker; smaller comparisons remain immediate.
+
+Current source: 183 tests passed across 9 test modules after the background-comparison worker and UI modularization. A Python standard-library trace run estimated approximately 88.1% statement-line coverage across implementation modules; per-module percentages are rounded and this is not branch coverage. The RAR is CRC-checked and its extracted package test suite is run during package verification.
+
+The package is a single RAR archive as required by the course project instructions.
+

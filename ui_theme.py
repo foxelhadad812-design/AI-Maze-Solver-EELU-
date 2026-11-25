@@ -1,0 +1,36 @@
+"""Shared color palette for the Pygame interface."""
+
+# --- NEUTRAL GRAPHITE EYE-COMFORT PALETTE ---
+COLOR_MAIN_BG = (24, 26, 30)            # #181A1E
+COLOR_HEADER_BG = (30, 33, 38)          # #1E2126
+COLOR_PANEL_BG = (34, 37, 43)           # #22252B
+COLOR_CARD_BG = (38, 42, 49)            # #262A31
+COLOR_CARD_BORDER = (66, 72, 84)        # #424854
+
+COLOR_PRIMARY_BLUE = (74, 130, 210)     # #4A82D2
+COLOR_ELECTRIC_BLUE = (90, 150, 220)    # #5A96DC
+COLOR_BRIGHT_CYAN = (120, 190, 210)     # #78BED2
+COLOR_PRIMARY_HOVER = (100, 155, 225)   # #649BE1
+
+COLOR_BTN_SECONDARY = (44, 48, 56)      # #2C3038
+COLOR_BTN_SECONDARY_HOVER = (58, 63, 73) # #3A3F49
+
+COLOR_TEXT_PRIMARY = (236, 238, 242)    # #ECEEF2
+COLOR_TEXT_SECONDARY = (190, 196, 206)  # #BEC4CE
+
+COLOR_OPEN = (88, 121, 156)             # #58799C
+COLOR_GRID_BACKING = (13, 15, 19)       # #0D0F13
+COLOR_WALL = (45, 48, 66)               # #2D3042
+COLOR_WALL_EDGE = (61, 68, 88)          # #3D4458
+COLOR_START = (60, 190, 130)            # #3CBE82
+COLOR_GOAL = (230, 90, 100)             # #E65A64
+COLOR_EXPLORED = (74, 150, 160)         # #4A96A0
+COLOR_FRONTIER = (214, 150, 70)         # #D69646
+COLOR_PATH = (236, 200, 90)             # #ECC85A
+COLOR_CURRENT = (250, 225, 120)         # #FAE178
+COLOR_HUMAN_PATH = (0, 245, 255)
+COLOR_BREADCRUMB = (0, 180, 216)
+COLOR_PLAYER_CORE = (15, 23, 42)
+
+# Keep small comparisons immediate; large searches run off the Pygame thread.
+ASYNC_COMPARISON_CELL_THRESHOLD = 1600
