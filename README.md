@@ -9,6 +9,16 @@ An educational desktop application built with Python 3 and Pygame for the Artifi
 
 ---
 
+## Screenshots
+
+### Main Solver Interface
+
+![AI Maze Solver main interface](screenshots/main-interface.webp)
+
+The main desktop view brings the maze workspace, search controls, visualization options, algorithm information, results, and color legend together in one responsive dashboard.
+
+---
+
 ## 1. Project Idea & Algorithms Used
 
 Navigating an agent from a Start coordinate (`S`) to a Goal coordinate (`G`) through an obstacle grid is formulated as a four-connected unweighted graph search problem with unit step cost ($c = 1$):
